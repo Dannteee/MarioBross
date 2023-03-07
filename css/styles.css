@@ -5,28 +5,23 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:white;
+    background-color:rgb(0, 0, 0);
 }
-
 .container{
     justify-content: center;
     display: flex;
 }
-
 .fondo{
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
-.imagenlogo{ 
-   align-items: center;
-}
-
 .mariowalk{
     position: absolute;
     animation: mario 15s infinite;
 }
-
+audio{
+    color: transparent;
+}
 @keyframes mario {
     0%  {top: 590px; left: 0px;}
     15% {top: 590px; left:615px;}
