@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.fondo{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imagenlogo{ 
+   align-items: center;
+}
+
+.mariowalk{
+    position: absolute;
+    animation: mario 15s infinite;
+}
+
+@keyframes mario {
+    0%  {top: 590px; left: 0px;}
+    15% {top: 590px; left:615px;}
+    18% {top: 570px; left: 615px;}
+    22% {top: 590px; left: 615px;}
+    30% {top: 590px; left: 930px;}
+    36% {top: 530px; left: 930px;}
+    43% {top: 530px; left: 1045px;}
+    50% {top: 590px; left: 1045px;}
+    55% {top: 590px; left: 1250px;}
+    63% {top:500px; left:1250px;}
+    69% {top: 500px; left:1350px;}
+    78% {top:590px; left:1350px;}
+    85% {top: 590px; left: 1500px;}
+}
+
